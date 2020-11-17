@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowIntroductionAndDefinition"
+    android:orientation="vertical"
+    android:background="#7D53D5">
+
+    <TextView
+        android:id="@+id/showContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines="20"
+        android:maxEms="50"
+        android:scrollbars="vertical"
+        android:ems="10"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:gravity="right|top"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="Name"
+        android:lines="50" />
+
+</LinearLayout>
